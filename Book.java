@@ -12,19 +12,15 @@ public Book(String title, double price, Author author)
     this.author = "Angel Aldaco";
 }
     
-public String getTitle()
+public Book(String Title)
 {
-    return title;
+    this.title = title;
 }
 
-public double getPrice()
+public Book(String Price, String Author)
 {
-    return price;
-}
-
-public String getAuthor()
-{
-    return author;
+    this.price = price;
+    this.Author = author;
 }
 
 public String toString() 
