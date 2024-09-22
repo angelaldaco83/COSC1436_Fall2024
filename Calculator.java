@@ -74,10 +74,10 @@ private static double getNumber(Scanner scanner)
 {
     while (true)
     {
-        try
-        {
+    try
+    {
             return Double.parseDouble(scanner.nextLine());
-        }
+    }
     catch (NumberFormatException e)
     {
         System.out.println("Invalid number. Try again: ");
