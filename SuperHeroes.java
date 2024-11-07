@@ -1,4 +1,4 @@
-public class SuperheroRoster 
+public class SuperHeroes
 {
 
     public static void main(String[] args) {
